@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 // --- simple Get request Example
 export const GET = async (request: NextRequest) => {
-  // await connectDB();     // connect to Database
+  await connectDB(); // connect to Database
 
   const allUsers = await User.find();
 
@@ -13,7 +13,7 @@ export const GET = async (request: NextRequest) => {
 
 // --- simple POST request example
 export const POST = async (request: NextRequest) => {
-  // await connectDB(); // connect to Database
+  await connectDB(); // connect to Database
 
   const body = await request.json();
   const { username, password } = body;
