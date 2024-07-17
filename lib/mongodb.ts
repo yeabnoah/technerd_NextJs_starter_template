@@ -1,3 +1,7 @@
+// this code is the place where the NextJs app and Mongoose connect
+// unless you want to configure something don touch anything
+// ********* remember : the connectDB is exported form here
+
 import mongoose, { ConnectOptions, Mongoose } from "mongoose";
 
 const DATABASE_URL = process.env.DATABASE_URL!;
