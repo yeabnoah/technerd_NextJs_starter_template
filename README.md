@@ -65,7 +65,7 @@ Make sure you have the following installed on your machine:
 
 Here's an overview of the project structure:
 <pre>
-        {`
+
 ├── app
     ├── api
         ├── auth
@@ -76,7 +76,7 @@ Here's an overview of the project structure:
 ├── utils        # Utility functions
 ├── .env.local   # Environment variables / change the env.example to env.local
 └── ...
-        `}
+        
       </pre>
 
 ## Usage
