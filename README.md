@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Full Stack Starter Template
+
+👋🏿 Hi! I’m Yeabsra, a web and mobile developer from Ethiopia. I’ve put together my preferred tech stack and starter template for a Next.js full stack project. It includes Next.js, Mongoose, Zod, Shadcn, Tailwind, and NextAuth, using pnpm. Feel free to use it if you want. Let’s connect and create something awesome together!
+
+## Tech Stack
+
+- **Next.js**: The React framework for production.
+- **Mongoose**: Elegant MongoDB object modeling for Node.js.
+- **Zod**: TypeScript-first schema declaration and validation library.
+- **Shadcn**: Custom UI components for Shadcn.
+- **Tailwind CSS**: A utility-first CSS framework.
+- **NextAuth**: Authentication for Next.js.
+- **pnpm**: Fast, disk space efficient package manager.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this template, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed on your machine:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://pnpm.io/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    pnpm install
+    ```
 
-## Deploy on Vercel
+3. **Set up environment variables:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Create a `.env.local` file in the root of your project and add the following environment variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    # MongoDB connection string
+    MONGODB_URI=your_mongodb_uri
+
+    # NextAuth configuration
+    NEXTAUTH_SECRET=your_nextauth_secret
+    NEXTAUTH_URL=http://localhost:3000
+
+    # Other environment variables
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    pnpm dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
+Here's an overview of the project structure:
+
+
+
+
+## Usage
+
+### Authentication
+
+This template uses NextAuth for authentication. You can configure different authentication providers in `pages/api/auth/[...nextauth].ts`.
+
+### Database
+
+Mongoose is used for MongoDB interaction. Define your Mongoose models in the `models` directory.
+
+### Validation
+
+Zod is used for schema validation. You can define your schemas and use them to validate data throughout your application.
+
+## Contributing
+
+Feel free to submit issues and pull requests. Let's improve this template together!
+
+## Connect with Me
+
+Let’s connect and create something awesome together! You can reach me at:
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [your-linkedin-profile](https://linkedin.com/in/your-profile)
+- **GitHub**: [your-github-profile](https://github.com/your-username)
+
+---
+
+Happy coding! 🎉
