@@ -21,7 +21,7 @@ export default function Layout({
         <div className=" justify-center md:justify-normal flex items-center mt-3 cursor-pointer gap-5">
           <Back />
           <h1 className=" md:text-3xl text-xl  font-medium text-neutral-400">
-            Documentation ( Kinda 🗿 )
+            Documentation ( 👀 )
           </h1>
         </div>
 
