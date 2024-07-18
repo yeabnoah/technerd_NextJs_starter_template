@@ -50,7 +50,7 @@ export default function Home() {
           <div className="  border border-neutral-800 items-center flex justify-center md:py-2 fixed bottom-20 rounded">
             <Button className="  p-0 group rounded-none text-neutral-500 border-none hover:bg-transparent shadow-none bg-transparent">
               <Link
-                href="/doc"
+                href="https://tech-nerd-next-js-starter.vercel.app/"
                 className=" md:text-xl   px-5 py-1 group-hover:scale-105 transition-all"
               >
                 ✊🏿 Get Insight
@@ -58,7 +58,9 @@ export default function Home() {
             </Button>
 
             <Button className="  border-none shadow-none bg-transparent hover:bg-transparent ">
-              <PiGithubLogo className=" text-neutral-500 hover:scale-105 transition-all text-xl md:text-3xl" />
+              <Link href="https://github.com/yeabnoah/technerd_NextJs_starter_template">
+                <PiGithubLogo className=" text-neutral-500 hover:scale-105 transition-all text-xl md:text-3xl" />
+              </Link>
             </Button>
           </div>
         </div>
