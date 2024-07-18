@@ -75,7 +75,6 @@ Here's an overview of the project structure:
 ├── public       # Public assets
 ├── utils        # Utility functions
 ├── .env.local   # Environment variables / change the env.example to env.local
-└── ...
         
       </pre>
 
