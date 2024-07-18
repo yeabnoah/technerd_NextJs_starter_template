@@ -57,7 +57,8 @@ const Step2 = () => {
       />
 
       <h1 className=" text-sm md:text-xl font-medium mt-5 ">
-        ╰┈➤ <span className=" text-neutral-300">Don't forget</span> to call the
+        ╰┈➤ <span className=" text-neutral-300">Don&apos;t forget</span> to call
+        the
         <span className=" text-neutral-300 mx-1">connectDB function</span> when
         creating api Routes in your app/api folder
       </h1>

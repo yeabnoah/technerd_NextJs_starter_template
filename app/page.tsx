@@ -16,15 +16,16 @@ export default function Home() {
             👋🏿 HI I am TechNerd
           </p>
         </div>
-        <h1 className=" text-center text-lg md:text-4xl">
+        <h1 className="text-center text-lg md:text-4xl">
           <Link
             href="https://t.me/selfmadecoder"
-            className=" bg-neutral-800 p-1"
+            className="bg-neutral-800 p-1"
           >
-            🧔🏿 Tech Nerd's
+            🧔🏿 Tech Nerd&apos;s
           </Link>{" "}
           Next JS Starter Kit ⋆.˚
         </h1>
+
         <p className=" md:text-xl text-sm md:text-start text-center mt-[2px] pt-2">
           Modern Full stack Starter Template for you 🫵🏿
         </p>
@@ -50,7 +51,7 @@ export default function Home() {
             <Button className="  p-0 group rounded-none text-neutral-500 border-none hover:bg-transparent shadow-none bg-transparent">
               <Link
                 href="/doc"
-                className=" md:text-xl  px-5 py-1 group-hover:scale-105 transition-all"
+                className=" md:text-xl   px-5 py-1 group-hover:scale-105 transition-all"
               >
                 ✊🏿 Get Insight
               </Link>
