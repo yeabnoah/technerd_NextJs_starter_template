@@ -64,8 +64,16 @@ Make sure you have the following installed on your machine:
 ## Project Structure
 
 Here's an overview of the project structure:
-
-
+├── app
+    ├── api
+        ├── auth
+├── components # Reusable UI components
+├── lib # Library code also Mongoose connection with NextJS
+├── models # Mongoose models
+├── public # Public assets
+├── utils # Utility functions
+├── .env.local # Environment variables / change the env.example to env.local
+└── ...
 
 
 ## Usage
