@@ -28,7 +28,7 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository:**
 
     ```bash
-    git [clone https://github.com/yeabnoah/technerd_NextJs_starter_template](https://github.com/yeabnoah/technerd_NextJs_starter_template.git)
+    git clone https://github.com/yeabnoah/technerd_NextJs_starter_template.git
     cd technerd_NextJs_starter_template
     ```
 
