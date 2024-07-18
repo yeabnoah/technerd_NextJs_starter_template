@@ -28,8 +28,8 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/yeabnoah/technerd_NextJs_starter_template
+    cd technerd_NextJs_starter_template
     ```
 
 2. **Install dependencies:**
@@ -40,10 +40,10 @@ Make sure you have the following installed on your machine:
 
 3. **Set up environment variables:**
 
-    Create a `.env.local` file in the root of your project and add the following environment variables:
+    change the `.env.example` to `.env.local` file in the root of your project and uncomment and the following environment variables:
 
     ```bash
-    # MongoDB connection string
+    # MongoDB connection string use the guide in the file to setup and link to your database either local or Atlas project
     MONGODB_URI=your_mongodb_uri
 
     # NextAuth configuration
