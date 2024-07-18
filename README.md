@@ -100,9 +100,10 @@ Feel free to submit issues and pull requests. Let's improve this template togeth
 
 Let’s connect and create something awesome together! You can reach me at:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [your-linkedin-profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [your-github-profile](https://github.com/your-username)
+- **Email**: [yeabnoah5@gmail.com](mailto:yeabnoah5@gmail.com)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/)
+- **GitHub**: [Github](https://github.com/yeabnoah)
+- **Telegram** [telegram](https://t.me/technerd345)
 
 ---
 
