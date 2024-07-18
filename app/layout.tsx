@@ -28,6 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head></head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       {/* You can use inter.className if you want Default Next Starter Like font */}
       <body
