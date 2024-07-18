@@ -78,7 +78,9 @@ Here's an overview of the project structure:
         
       </pre>
 
-## Usage
+## Check
+
+check yourBaseUrl/api/user with `GET` and `POST` request on postman to validate the DBconnection and api is working 
 
 ### Authentication
 
