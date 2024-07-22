@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Provider from "@/provider/sessionProvider";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -37,7 +38,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        {children}
+        <Provider> {children}</Provider>
       </body>
     </html>
   );
